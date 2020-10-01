@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "641170806090-fkc9fbb854vukeanl61mfsno3r535852.apps.googleusercontent.com",
+          "client_id": "641170806090-4aj1h5km1aahl41lsnupv6dckk3qoefc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.danielpirs.fluttershare",
-            "certificate_hash": "d17c1982717c09f279093b592a20a51ad4f80bff"
+            "certificate_hash": "f37a62a3860655bd8754fe71af6a390990e185f2"
           }
         },
         {
