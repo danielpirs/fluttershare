@@ -13,35 +13,8 @@ class Timeline extends StatefulWidget {
 class _TimelineState extends State<Timeline> {
   @override
   void initState() {
-    //getUserByID();
-    //createUser();
-    //updateUser();
     super.initState();
   }
-
-  createUser() {
-    usersRef.document("adfasdf").setData({
-      "username": "Jeff",
-      "postsCount": 0,
-      "isAdmin": false,
-    });
-  }
-
-  updateUser() {
-    usersRef.document("adfasdf").updateData({
-      "username": "John",
-      "postsCount": 0,
-      "isAdmin": false,
-    });
-  }
-
-  // getUserByID() async {
-  //   final String id = "Xc87a8HiEVkKAbSUm4H9";
-  //   final DocumentSnapshot doc = await usersRef.document(id).get();
-  //   // print(doc.data);
-  //   // print(doc.documentID);
-  //   // print(doc.exists);
-  // }
 
   @override
   Widget build(context) {
